@@ -1,0 +1,30 @@
+body {
+	background: #fff5ee;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+h1 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 42px;
+}
+button {
+	height: 100px;
+	width: 160px;
+	font-size: 24px;
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	background-color: #C2B280;
+	color: white;
+	text-decoration: none;
+}
+.mainContainer {
+	background-color: transparent;
+	width: 960px;
+	margin: 0 auto;
+}
+.mainContainer p {
+	padding: 15px;
+}
+#buttonContainer {
+	text-align: center;
+	margin: 100px center;
+}

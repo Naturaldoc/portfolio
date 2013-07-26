@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>My First Day</title>
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="assets/css/day1.css" />
+
+	<script>
+		var color = "#"+(Math.random().toString(16) + '000000').slice(2,8);
+
+		//alert(color);
+		function changeBackground() {
+			var color = "#"+(Math.random().toString(16) + '000000').slice(2,8);
+			document.body.style.background = color;
+		}
+		function randomColor(color) {
+			document.body.style.background = color;
+		}
+
+	</script>
+</head>
+<body onLoad="randomColor(color)">
+	<div class="mainContainer">
+		<h1 class="centered">Changing the Background Color with simple JavaScript</h1>
+		<hr />
+		<p>This page uses simple javascript to change the background color when the user clicks on the button</p>
+		
+		<div id="buttonContainer">
+			<button onClick="changeBackground()">This color stinks!</button>
+		<div>
+	<div>
+</body>
+</html>
