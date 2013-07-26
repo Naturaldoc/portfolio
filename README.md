@@ -1,6 +1,6 @@
 # 60 Days of Coding
 ***
-I was recently inspired by [@jendewalt]'s(https://github.com/jendewalt/jennifer_dewalt) 180 day exercise of coding 180 Web pages over the course of 180 days. As a result, I have committed to coding for 60 days in succession to help improve my coding abilities.
+I was recently inspired by [@jendewalt's](https://github.com/jendewalt/jennifer_dewalt) 180 day exercise of coding 180 Web pages over the course of 180 days. As a result, I have committed to coding for 60 days in succession to help improve my coding abilities.
 
 I plan to use HTML, CSS, JavaScript, and PHP.
 
