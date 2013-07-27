@@ -5,19 +5,7 @@
 	<link rel="stylesheet" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/css/day1.css" />
 
-	<script>
-		var color = "#"+(Math.random().toString(16) + '000000').slice(2,8);
-
-		//alert(color);
-		function changeBackground() {
-			var color = "#"+(Math.random().toString(16) + '000000').slice(2,8);
-			document.body.style.background = color;
-		}
-		function randomColor(color) {
-			document.body.style.background = color;
-		}
-
-	</script>
+	<script src="assets/js/randomColor.js"></script>
 </head>
 <body onLoad="randomColor(color)">
 	<div class="mainContainer">

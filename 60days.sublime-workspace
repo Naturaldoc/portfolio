@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"d4",
+				"d4Img"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"x",
+				"xhr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/portfolio/day2.html",
+		"/C/wamp/www/portfolio/assets/js/dateTime.js",
+		"/C/wamp/www/portfolio/assets/css/day2.css",
+		"/C/wamp/www/portfolio/assets/js/randomColor.js",
+		"/C/wamp/www/portfolio/day3.html",
+		"/C/wamp/www/portfolio/day1.html",
+		"/C/wamp/www/portfolio/index.html",
+		"/C/wamp/www/portfolio/assets/css/main.css",
+		"/C/wamp/www/portfolio/assets/css/reset.css",
+		"/C/wamp/www/portfolio/assets/js/rpgdice.js",
+		"/C/wamp/www/portfolio/assets/css/day1.css",
+		"/C/Users/Doc/Documents/CLICKBANK AFFILIATE TRAINING.txt",
+		"/C/wamp/www/portfolio/DONOTUPLOAD/day1blog.html",
+		"/C/wamp/www/portfolio/README.md",
+		"/C/Users/Doc/Documents/Project Ideas/Site App Ideas.txt",
+		"/C/Users/Doc/Documents/Project Ideas/XITIES.txt",
+		"/C/Users/Doc/Documents/Project Ideas/Discreteman Articles/Introduction.txt",
+		"/C/Users/Doc/Documents/Affiliate Marketing/Affliate Marketing Notes.txt",
+		"/C/wamp/www/xcities/index.php",
+		"/C/wamp/www/xcities/login.php",
+		"/C/wamp/www/discreteman/wp-config.php",
+		"/C/wamp/www/discreteman/wp-content/plugins/wp-lead-plus-free-squeeze-pages-creator/readme.txt",
+		"/C/wamp/www/discreteman/wp-config-sample.php",
+		"/C/Users/Doc/Documents/CLICKBANK AFFILIATE TRAINING",
+		"/C/wamp/www/xcities/db_con.php",
+		"/C/wamp/www/xcities/register.php",
+		"/C/wamp/www/xcities/register.html",
+		"/C/wamp/www/social/php_includes/db_connect.php",
+		"/E/BACKUP/Code/phpscripts/dbconnect_mysql.php",
+		"/C/wamp/www/xcities/index.html",
+		"/C/Users/Doc/Documents/Project Ideas/xcities/index.php",
+		"/C/Users/Doc/Documents/Project Ideas/xcities/register.php",
+		"/C/Users/Doc/Documents/Project Ideas/xcities/register.html",
+		"/C/wamp/www/tumblrClone/index.php",
+		"/C/wamp/www/htmldom/b.php",
+		"/C/wamp/www/cs75/register.php",
+		"/C/wamp/www/cs75/register.html",
+		"/C/wamp/www/cs75/server.php",
+		"/C/wamp/www/cs75/google.php",
+		"/C/wamp/www/cs75/register.hmtl.php",
+		"/E/BACKUP/Code/social/signup.php",
+		"/C/Users/Doc/Documents/Coding Exercises/OOPHP Notes.php",
+		"/C/Users/Doc/Documents/Coding Exercises/OOPHP Notes.txt",
+		"/E/BACKUP/Code/social/photos.php",
+		"/E/BACKUP/Code/social/activation.php",
+		"/C/Users/Public/Documents/Simple_HTML_DOM Instructions.txt",
+		"/C/Users/Public/Documents/jquery_howto.txt",
+		"/C/wamp/www/htmldom/app/index.php",
+		"/C/wamp/www/htmldom/app/b.php",
+		"/C/wamp/www/htmldom/index.php",
+		"/C/wamp/www/couchcms-1.3.5/INSTALL.txt",
+		"/C/wamp/www/login-module/activate.php",
+		"/C/wamp/www/login-module/activate.php~",
+		"/E/BACKUP/Code/login-module/.htaccess",
+		"/E/BACKUP/Code/login-module/LogInModule.kpf",
+		"/E/BACKUP/Code/social/error_log",
+		"/E/BACKUP/Code/social/.project",
+		"/E/BACKUP/Code/social/.idea/dictionaries/Doc.xml",
+		"/C/Users/Doc/Documents/Coding Exercises/BitQuestJSExercise.js",
+		"/C/Users/Doc/Documents/157684.user.js",
+		"/C/Program Files (x86)/Zimbra/Zimbra Desktop/data/zdesktop.webapp/icons/default/launcher.icns",
+		"/C/Users/Doc/Documents/jons phone prog codes"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"date",
+			"title",
+			"{\n",
+			"<?",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"today",
+			"alt",
+			"<?php"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
