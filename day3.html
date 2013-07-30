@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Day 3 | Coming Soon!</title>
+	<title>Day 3 | RPG Character Creator</title>
 	<link rel="stylesheet" href="assets/css/reset.css" />
-	<link rel="stylesheet" href="assets/css/day1.css" />
-
-	<script src="assets/js/randomColor.js"></script>
+	<link rel="stylesheet" href="assets/css/day3.css" />
+	<script src="assets/js/rpgCreator.js"></script>
 </head>
-<body>
+<body onLoad="initialize()">
 	<div class="mainContainer">
-		<h1 class="centered">Check back later to see what new and fun things I have in store!!!!</h1>
+		<form>
+			<div>
+				<h1 class="centered">RPG Character Creator</h1>
+				
+				<label><span>Player Name:</span><input type="text" placeholder="Player Name" size="55" /></label>
+				<label><span>Character Name:</span><input type="text" placeholder="Character Name" size="55" /></label>
+				<label><span>Level:</span><input type="text" placeholder="lvl" size="3" maxlength="3" /></label>
+				<label><span>Class:</span><select id="classList"></select></label>
+			<!--Paragon Path: <input type="text" placeholder="Paragon Path" />
+				Epic Destiny: <input type="text" placeholder="Epic Destiny" />
+			-->
+				<label><span>Total XP: <input type="text" placeholder="XP" size="7" /></label>
+				<label><span>Race: <select id="raceList"></select></label>
+				<label><span>Size: <select id="sizeList"></select></label>
+				<label><span>Age: <input type="text" placeholder="Age" size="4" /></label>
+				<label><span>Gender: <select id="gender">
+					<option value="M">Male</option>
+					<option value="F">Female</option>
+				</select></label>
+				<label><span>Height:</span><select id="feet"></select></label><label><select id="inches"></select></label>
+
+				<label><span>Weight:</span><input type="text" placeholder="Weight" size="5" />
+					<label><span><input type="radio" name="weight">Ounces</span></label>
+					<label><span><input type="radio" name="weight">Pounds</span></label>
+					<label><span><input type="radio" name="weight">Tons</span></label>
+					</label><br />
+				<label><span>Alignment:</span><select id="alignmentList"></select></label>
+				<label><span>Deity:</span><input type="text" placeholder="Deity" size="35" /></label>
+				<span>BIO:</span></span><textarea id="bio" name="bio"></textarea>
+				<button>Create Character</button>
+			<!-- Adventruing Company (or other affiliations): <input type="text" placeholder="Company" />
+			-->
+			</div>
+		</form>
 	<div>
 </body>
 </html>
