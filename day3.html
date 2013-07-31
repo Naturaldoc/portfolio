@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<meta charset="UTF-8">
 	<title>Day 3 | RPG Character Creator</title>
 	<link rel="stylesheet" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/css/day3.css" />
 	<script src="assets/js/rpgCreator.js"></script>
+	<script src="assets/js/createCharacter.js"></script>
 </head>
 <body onLoad="initialize()">
 	<div class="mainContainer">
@@ -12,32 +14,31 @@
 			<div>
 				<h1 class="centered">RPG Character Creator</h1>
 				
-				<label><span>Player Name:</span><input type="text" placeholder="Player Name" size="55" /></label>
-				<label><span>Character Name:</span><input type="text" placeholder="Character Name" size="55" /></label>
-				<label><span>Level:</span><input type="text" placeholder="lvl" size="3" maxlength="3" /></label>
+				<label><span>Player Name:</span><input id="playerName" type="text" placeholder="Player Name" size="55" /></label>
+				<label><span>Character Name:</span><input id="charName" type="text" placeholder="Character Name" size="55" /></label>
+				<label><span>Level:</span><input id="lvl" type="text" placeholder="lvl" size="3" maxlength="3" /></label>
 				<label><span>Class:</span><select id="classList"></select></label>
 			<!--Paragon Path: <input type="text" placeholder="Paragon Path" />
 				Epic Destiny: <input type="text" placeholder="Epic Destiny" />
 			-->
-				<label><span>Total XP: <input type="text" placeholder="XP" size="7" /></label>
+				<label><span>Total XP: <input id="xp" type="text" placeholder="XP" size="7" /></label>
 				<label><span>Race: <select id="raceList"></select></label>
 				<label><span>Size: <select id="sizeList"></select></label>
-				<label><span>Age: <input type="text" placeholder="Age" size="4" /></label>
+				<label><span>Age: <input id="age" type="text" placeholder="Age" size="4" /></label>
 				<label><span>Gender: <select id="gender">
 					<option value="M">Male</option>
 					<option value="F">Female</option>
 				</select></label>
 				<label><span>Height:</span><select id="feet"></select></label><label><select id="inches"></select></label>
 
-				<label><span>Weight:</span><input type="text" placeholder="Weight" size="5" />
-					<label><span><input type="radio" name="weight">Ounces</span></label>
-					<label><span><input type="radio" name="weight">Pounds</span></label>
-					<label><span><input type="radio" name="weight">Tons</span></label>
-					</label><br />
+				<label><span>Weight:</span><input id="weight" type="text" placeholder="Weight" /></label>
+				<label><span><select id="weightOpts"></select></span></label>
+
 				<label><span>Alignment:</span><select id="alignmentList"></select></label>
-				<label><span>Deity:</span><input type="text" placeholder="Deity" size="35" /></label>
-				<span>BIO:</span></span><textarea id="bio" name="bio"></textarea>
-				<button>Create Character</button>
+				<label><span>Deity:</span><input id="diety" type="text" placeholder="Deity" size="35" /></label>
+				<label><span>BIO:</span><textarea id="bio"></textarea></label>
+				<!--<a href = "day3_char.html" onClick="createChar()" class="button">Create Character</a>-->
+				<button onClick="createChar()">Create Character</button>
 			<!-- Adventruing Company (or other affiliations): <input type="text" placeholder="Company" />
 			-->
 			</div>

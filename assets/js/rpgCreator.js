@@ -5,6 +5,7 @@ function initialize() {
 	alignOptins();
 	heightFt();
 	heightIn();
+	weight();
 }
 function classOptions () {
 	var classes = ["Ardent", "Artificer", "Assassin", "Avenger", "Barbarian", "Bard", "Battlemind", "Cleric", "Druid", "Fighter", "Invoker", "Monk", "Paladin", "Psion", "Ranger", "Rogue", "Runepriest", "Seeker", "Shaman", "Sorcerer", "Swordmage", "Warden", "Warlock", "Warlord", "Wizard", "Vampire"];
@@ -61,6 +62,16 @@ function heightIn() {
 		var opt = document.createElement('option');
 		opt.innerHTML = i;
 		opt.value = i;
+		sel.appendChild(opt);
+	}
+}
+function weight() {
+	var weightOptions = ["Ounces", "Pounds", "Tons"];
+	var sel = document.getElementById('weightOpts');
+	for (var i = 0; i < weightOptions.length; i++) {
+		var opt = document.createElement('option');
+		opt.innerHTML = weightOptions[i];
+		opt.value = weightOptions[i].toLowerCase();
 		sel.appendChild(opt);
 	}
 }
