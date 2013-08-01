@@ -10,8 +10,8 @@
 </head>
 <body onLoad="initialize()">
 	<div class="mainContainer">
-		<form>
-			<div>
+		<!--<form>-->
+			<div id="form">
 				<h1 class="centered">RPG Character Creator</h1>
 				
 				<label><span>Player Name:</span><input id="playerName" type="text" placeholder="Player Name" size="55" /></label>
@@ -42,7 +42,34 @@
 			<!-- Adventruing Company (or other affiliations): <input type="text" placeholder="Company" />
 			-->
 			</div>
-		</form>
+			<div id = "character">
+				<h1>Thank you for trying my site, <span id="pn"></span>.</h1>
+				Your character, <span id="cn"></span>, has the following attributes:<br />
+				<ul>
+					<li><strong>Character Name: </strong><span id="cn1"></span></li>
+					<li><strong>Age: </strong><span id="a"></span></li>
+					<li><strong>Size: </strong><span id="pSize"></span></li>
+					<li><strong>Race: </strong><span id="pRace"></span></li>
+					<li><strong>Gender: </strong><span id="pGender"></span></li>
+					<li><strong>Height: </strong><span id="ft"></span> ft. <span id="in"></span> in.</li>
+					<li><strong>Weight: </strong><span id="wt"></span> <span id="pWeight"></span></li>
+				</ul>
+				<hr />
+				<p>Your character is a level <span id="l"></span> <span id="pClass"></span>.</p>
+				
+				<p>S/he has amassed <span id="x_p"></span> experience points thus far while adventuring.</p>
+				
+				<p><span id="cn2"></span> is <span id="pAlignment"></span> and worships the diety, <strong><em><span id="god"></span></em></strong>.</p>
+				
+				<p>This is what you have had to say about <span id="cn3"></span>:</p>
+				
+				<p><em><span id="biog"></span></em></p>
+				
+				<p>Please check back later to see how I have improved this site. My hope is to eventually turn this into a full-fledged character sheet suitable for actual gaming.</p>
+				
+				<p>Thanks for checking it out.</p>
+			</div>
+		<!--</form>-->
 	<div>
 </body>
 </html>

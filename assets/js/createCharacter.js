@@ -37,20 +37,26 @@ function createChar() {
 	var diety = document.getElementById('diety').value;
 	var bio = document.getElementById('bio').value;
 
-	document.write("<h1>Thank you for trying my site, " + pn + ".</h1>");
-	document.write("Your character, " + cn + ", has the following attributes:<br />");
-	document.write("<ul><li><strong>Character Name: </strong>" + cn + "</li>");
-	document.write("<li><strong>Age: </strong>" + age + "</li>");
-	document.write("<li><strong>Size: </strong>" + pSize + "</li>");
-	document.write("<li><strong>Race: </strong>" + pRace + "</li>");
-	document.write("<li><strong>Gender: </strong>" + pGender + "</li>");
-	document.write("<li><strong>Height: </strong>" + feet + " ft." + inches + " in.</li>");
-	document.write("<li><strong>Weight: </strong>" + weight + " " + pWeight + "</li></ul>");
-	document.write("<p>Your character is a level " + lvl + " " + pClass + ".</p>");
-	document.write("<p>S/he has amassed " + xp + " experience points thus far while adventuring.</p>");
-	document.write("<p>" + cn + " is " + pAlignment + " and worships the diety, <strong><em>" + diety + "</em></strong>.</p>");
-	document.write("<p>This is what you have had to say about " + cn + ":</p>");
-	document.write("<p><em>" + bio + "</em></p>");
-	document.write("<p>Please check back later to see how I have improved this site. My hope is to eventually turn this into a full-fledged character sheet suitable for actual gaming.</p>");
-	document.write("<p>Thanks for checking it out.</p>");
+	document.getElementById('form').style.display = "none";
+	document.getElementById('character').style.display = "block";
+
+	document.getElementById('pn').innerHTML = pn;
+	document.getElementById('cn').innerHTML = cn;
+	document.getElementById('cn1').innerHTML = cn;
+	document.getElementById('cn2').innerHTML = cn;
+	document.getElementById('cn3').innerHTML = cn;
+	document.getElementById('a').innerHTML = age;
+	document.getElementById('pSize').innerHTML = pSize;
+	document.getElementById('pRace').innerHTML = pRace;
+	document.getElementById('pGender').innerHTML = pGender;
+	document.getElementById('ft').innerHTML = feet;
+	document.getElementById('in').innerHTML = inches;
+	document.getElementById('wt').innerHTML = weight;
+	document.getElementById('pWeight').innerHTML = pWeight;
+	document.getElementById('l').innerHTML = lvl;
+	document.getElementById('pClass').innerHTML = pClass;
+	document.getElementById('x_p').innerHTML = xp;
+	document.getElementById('pAlignment').innerHTML = pAlignment;
+	document.getElementById('god').innerHTML = diety;
+	document.getElementById('biog').innerHTML = bio;
 }

@@ -6,8 +6,9 @@ body {
 h1 {
 	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	font-size: 48px;
+	line-height: 52px;
 }
-form {
+#form, #character {
 	background: -webkit-gradient(linear, bottom, left 175px, from(#CFE7FA), to(#6393C1));
 	background: -moz-linear-gradient(bottom, #CFE7FA, #6393C1 175px);
 	margin: auto;
@@ -15,7 +16,7 @@ form {
 	width: 550px;
 	//height: 450px;
 	font-family: Papyrus, fantasy;
-	font-size: 14px;
+	font-size: 18px;
 	font-style: italic;
 	line-height: 24px;
 	font-weight: bold;
@@ -92,4 +93,19 @@ button:hover {
 	width: 960px;
 	margin: 0 auto;
 	padding: 0;
+}
+#character {
+	display: none;
+}
+#character h1 {
+	font-size: 32px;
+}
+#character p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+span#biog {
+	margin-left: 10px;
+	font-family: monospace;
+	font-variant: normal;
 }
